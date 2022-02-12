@@ -11,6 +11,11 @@ h3 {
   color: rgb(0, 0, 0);
   margin-bottom: 0.3em;
 }
+
+img {
+  width: 30%;
+  height: auto;
+}
 table {
   margin: 0.3em;
   width: 290px;
