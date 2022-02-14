@@ -1,25 +1,57 @@
 h1 {
   text-align: center;
   font-size: 5em;
-  color: rgb(0, 0, 0);
+  color: rgb(219, 219, 219);
   margin-bottom: 0.3em;
 }
 h3 {
   text-align: center;
   font-size: 3em;
-  color: rgb(0, 0, 0);
+  color: rgb(219, 219, 219);
   margin-bottom: 0.3em;
 }
 
 img.linkedinPicture {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 600px;
 }
-.box {
+#tabBox.box {
+  background-color: rgba(211, 209, 209, 0.7);
+  height: 70px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1px;
+}
+#introductionBox.box {
   background-image: url("mountain.jpg");
   padding: 500px;
   background-size: cover;
 }
+
+#buttonAboutMe.tablinks {
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  left: 1281px;
+  font-size: 1.5em;
+}
+
+#buttonProject.tablinks {
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  left: 1483px;
+}
+
+#buttonContactMe.tablinks {
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  left: 1685px;
+}
+
 table {
   margin: 0.3em;
   width: 290px;

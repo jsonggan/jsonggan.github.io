@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jsonggan.github.io</title>
+    <title>Chin Song</title>
     <link href="stylesheet.css" rel="stylesheet" />
   </head>
   <body>
-    <h3>Hey, I'm</h3>
-    <h1>Chin Song</h1>
-    <div class="box">
-      <p>I'm hosted with GitHub Pages.</p>
+    <div id="tabBox" class="box">
+      <div class="tab">
+        <button
+          id="buttonAboutMe"
+          class="tablinks"
+          onclick="openCity(event, 'London')"
+        >
+          About Me
+        </button>
+        <button
+          id="buttonProject"
+          class="tablinks"
+          onclick="openCity(event, 'Paris')"
+        >
+          Project
+        </button>
+        <button
+          id="buttonContactMe"
+          class="tablinks"
+          onclick="openCity(event, 'Tokyo')"
+        >
+          Contact Me
+        </button>
+      </div>
     </div>
-
-    <img class="linkedinPicture" src="linkedin.png" alt="linkedin" />
+    <div id="introductionBox" class="box">
+      <h3>Hey, I'm</h3>
+      <h1>Chin Song</h1>
+    </div>
+    <a href="https://www.linkedin.com/in/chin-song-gan-977382229/">
+      <img class="linkedinPicture" src="linkedin.png" alt="linkedin" />
+    </a>
   </body>
 </html>
