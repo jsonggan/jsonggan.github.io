@@ -5,37 +5,64 @@
     <link href="stylesheet.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="tabBox" class="box">
-      <div class="tab">
-        <button
-          id="buttonAboutMe"
-          class="tablinks"
-          onclick="openCity(event, 'London')"
-        >
-          About Me
-        </button>
-        <button
-          id="buttonProject"
-          class="tablinks"
-          onclick="openCity(event, 'Paris')"
-        >
-          Project
-        </button>
-        <button
-          id="buttonContactMe"
-          class="tablinks"
-          onclick="openCity(event, 'Tokyo')"
-        >
-          Contact Me
-        </button>
-      </div>
+    <script src="main.js"></script>
+    <div id="menuTab" class="tab">
+      <button
+        id="buttonAboutMe"
+        class="tablinks"
+        onclick="openCity(event, 'London')"
+      >
+        About Me
+      </button>
+      <button
+        id="buttonProject"
+        class="tablinks"
+        onclick="openCity(event, 'Paris')"
+      >
+        Project
+      </button>
+      <button
+        id="buttonContactMe"
+        class="tablinks"
+        onclick="openCity(event, 'Tokyo')"
+      >
+        Contact Me
+      </button>
     </div>
+
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
     <div id="introductionBox" class="box">
       <h3>Hey, I'm</h3>
       <h1>Chin Song</h1>
     </div>
-    <a href="https://www.linkedin.com/in/chin-song-gan-977382229/">
+    <a
+      href="https://www.linkedin.com/in/chin-song-gan-977382229/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img class="linkedinPicture" src="linkedin.png" alt="linkedin" />
+    </a>
+
+    <a
+      href="https://github.com/jsonggan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img class="githubPicture" src="github.png" alt="github" />
     </a>
   </body>
 </html>
