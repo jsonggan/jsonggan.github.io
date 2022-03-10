@@ -1,20 +1,27 @@
+:root {
+  --ff-first: "Roboto", sans-serif;
+  --ff-second: "Playfair Display", serif;
+}
+
 body {
   display: flex;
   margin: 0px;
   flex-direction: column;
 }
-
-h1 {
-  font-size: 50px;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1px, 1fr)); */
-  margin-top: 0px;
+h1,
+h2,
+h3 {
+  font-family: var(--ff-first);
 }
-.hey_im {
+p {
+  font-family: var(--ff-second);
+}
+.word_under_main_video h2 {
   font-size: 50px;
 }
-.chin_song {
+.word_under_main_video h1 {
   font-size: 100px;
+  font-weight: 900;
 }
 .main_video {
   display: flex;
@@ -26,7 +33,6 @@ h1 {
   min-width: 100vw;
   overflow: hidden;
 }
-
 .background_video {
   position: absolute;
   top: 0;
@@ -39,20 +45,16 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.euthusiastic {
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_home h1 {
   font-size: 35px;
 }
-.front_end {
+.main_home p {
   font-size: 20px;
-}
-
-.sutd,
-.modelling,
-.design {
-  font-size: 20px;
-}
-.check_out {
-  font-size: 27px;
 }
 
 .footer {
@@ -63,13 +65,6 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
-#content.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .linkedinPicture,
 .githubPicture {
   max-width: 3rem;
