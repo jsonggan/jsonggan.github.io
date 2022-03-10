@@ -1,28 +1,28 @@
 body {
-  background-color: rgb(238, 123, 16);
   display: flex;
   margin: 0px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 h1 {
   font-size: 50px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(1px, 1fr)); */
+  margin-top: 0px;
 }
-
-#content.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100vw;
+.hey_im {
+  font-size: 50px;
 }
-
+.chin_song {
+  font-size: 100px;
+}
 .main_video {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
-  min-height: 50vh;
+  min-height: 500px;
   min-width: 100vw;
   overflow: hidden;
 }
@@ -37,4 +37,24 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.introduction1 {
+  font-size: 35px;
+}
+.introduction2 {
+  font-size: 20px;
+}
+.introduction3 {
+  font-size: 20px;
+}
+.introduction4 {
+  font-size: 27px;
+}
+
+#content.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
 }
