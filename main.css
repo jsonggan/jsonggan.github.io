@@ -60,7 +60,6 @@ p {
   align-items: center;
   max-width: 100vw;
 }
-
 .wrapper_footer_main {
   display: flex;
   justify-content: center;
@@ -82,4 +81,14 @@ p {
   .wrapper_footer_main > * + * {
     padding-left: 0rem;
   }
+  .footer {
+    justify-content: left;
+  }
+}
+
+button {
+  border-radius: 10px;
+  width: 3rem;
+  height: 2rem;
+  font-size: 1.5rem;
 }
