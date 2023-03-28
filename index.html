@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chin Song</title>
-    <link href="main.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <link href="views/css/main.css" rel="stylesheet" />
     <meta name="description" content="Gan Chin Song" />
   </head>
   <body>
-    <script src="main.js"></script>
+    <script src="controllers/main.js"></script>
 
-    <main class="page_content">
+    <header class="header">
+      <ul class="header_element">
+        <li><a href = "index.html">About</a></li>
+        <li><a href = "views/html/resico.html">Resico</a></li>
+      </ul>
+      
+    </header>
+
+    <main class="content">
       <div class="main_video">
         <div class="word_under_main_video">
           <h2>Hey I'm</h2>
@@ -19,7 +27,7 @@
         </div>
 
         <video class="background_video" autoplay muted loop>
-          <source src="final.mp4" type="video/mp4" />
+          <source src="assets/videos/final.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -52,7 +60,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="linkedinPicture" src="linkedin.png" alt="linkedin" />
+            <img class="linkedinPicture" src="assets/images/linkedin.png" alt="linkedin" />
           </a>
 
           <a
@@ -60,7 +68,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="githubPicture" src="github.png" alt="github" />
+            <img class="githubPicture" src="assets/images/github.png" alt="github" />
           </a>
         </div>
         <div class="wrapper_footer_right">

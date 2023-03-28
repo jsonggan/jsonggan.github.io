@@ -1,7 +1,20 @@
-:root {
-  --ff-first: "Roboto", sans-serif;
-  --ff-second: "Playfair Display", serif;
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(../fonts/Helvetica_Neue_Regular.otf);
 }
+
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(../fonts/Helvetica_Neue_67_Medium_Condensed.otf);
+  font-weight: 700;
+}
+
+:root {
+  --ff-first: "Helvetica Neue";
+  --ff-second: "Helvetica Neue";
+}
+
+
 
 body {
   display: flex;
@@ -9,7 +22,23 @@ body {
   flex-direction: column;
 }
 p {
-  font-family: var(--ff-second);
+  font-family: Helvetica Neue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.header {
+  position:static !important;
+  background-color:rgb(255, 255, 255);
+  z-index:100;
 }
 .word_under_main_video h2 {
   font-size: 3rem;
